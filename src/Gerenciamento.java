@@ -6,6 +6,7 @@ public class Gerenciamento {
     Missao missao;
     private ArrayList<Agente> agentes = new ArrayList<>();
     Agente agente;
+    private int  contadorId = 0;
 
     public ArrayList<Agente> getAgentes() {
         return agentes;
@@ -82,7 +83,6 @@ public class Gerenciamento {
     }
 
     public void criarMissaoGer(String nome, int dificuldade){
-        int contadorId = 0;
 
         if(buscarMissao(nome) == null){
             contadorId++;

@@ -201,6 +201,9 @@ public class Main {
 
     private static void criarMissao() {
         System.out.println("--- Criar Missão ---");
+
+        sc.nextLine();
+
         System.out.println("Informe o nome da missão: ");
         String nome = sc.nextLine();
 
